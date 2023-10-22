@@ -12,7 +12,7 @@ BROWSER_COLOR = "#333333"
 PATH = 'content'
 
 TIMEZONE = 'Europe/Berlin'
-THEME = "pelican-themes/"
+THEME = "pelican-theme/"
 THEME_COLOR = 'dark'
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
