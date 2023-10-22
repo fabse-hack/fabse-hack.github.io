@@ -1,28 +1,33 @@
-name: Pelican test
+name: Build and Deploy Pelican Website
+
 on:
-  - push
-  - pull_request
+  push:
+    branches:
+      - main  # Change this to your main branch
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version:
-          - "3.11"
+
     steps:
-    - name: Checkout
+    - name: Checkout code
       uses: actions/checkout@v2
-      with:
-        submodules: true
-    - name: Set up Python ${{ matrix.python-version }}
+
+    - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: ${{ matrix.python-version }}
-    - name: Install dependencies
+        python-version: 3.x  # Choose the Python version you need
+
+    - name: Install Pelican and dependencies
       run: |
-        pip install tox tox-gh-actions
-    - name: Test with tox
-      run: tox
+        pip install pelican Markdown
+
+    - name: Build Pelican website
+      run: |
+        pelican content -o output -s pelicanconf.py
+      env:
+        PELICAN_CONTENT: content
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
