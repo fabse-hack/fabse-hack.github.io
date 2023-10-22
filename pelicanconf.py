@@ -52,7 +52,7 @@ DISABLE_URL_HASH = True
 # PLUGINS = ['i18n_subsites']
 # JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 # I18N_TEMPLATES_LANG = "de"
-OG_LOCALE = "de_DE"
+# OG_LOCALE = "de_DE"
 #LOCALE = "de_DE"
 
 DATE_FORMATS = {
