@@ -31,9 +31,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'))
+LINKS = (('Me', 'https://fabse-hack.github.io/'),
+         ('Blog', 'https://fabse-hack.github.io/'),
+         ('Testing', 'https://fabse-hack.github.io/'))
 
 
 DEFAULT_PAGINATION = 10
@@ -49,11 +49,8 @@ OUTPUT_PATH = "blog/"
 DISABLE_URL_HASH = True
 
 # PLUGIN_PATHS = ['pelican-plugins']
-
 # PLUGINS = ['i18n_subsites']
-
 # JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-
 # I18N_TEMPLATES_LANG = "de"
 OG_LOCALE = "de_DE"
 #LOCALE = "de_DE"
