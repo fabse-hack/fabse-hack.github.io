@@ -1,10 +1,9 @@
 ---
-Title: About
+Title: About Me
 Description: It's me
 Date: 2023-10-08
 ---
 
-# Welcome to fabse-hack!
 I’m Fabse, this website is a platform for me to share my passion for technology, programming, and creative DIY projects with you.
 Who Am I?
 

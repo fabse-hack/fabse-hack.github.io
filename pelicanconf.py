@@ -32,8 +32,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Me', 'https://fabse-hack.github.io/'),
-         ('Blog', 'https://fabse-hack.github.io/'),
+LINKS = (('Blog', 'https://fabse-hack.github.io/'),
          ('Testing', 'https://fabse-hack.github.io/'))
 
 
@@ -96,8 +95,8 @@ CC_LICENSE = {
 
 COPYRIGHT_YEAR = datetime.now().year
 
-DISQUS_SITENAME = "flex-pelican"
-ADD_THIS_ID = "ra-55adbb025d4f7e55"
+# DISQUS_SITENAME = "flex-pelican"
+# ADD_THIS_ID = "ra-55adbb025d4f7e55"
 
 # STATIC_PATHS = ["images", "extra/ads.txt", "extra/CNAME"]
 
