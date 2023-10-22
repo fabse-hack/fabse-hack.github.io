@@ -1,5 +1,5 @@
 ---
-Title: ESP-Robot22
+Title: ESP-Robot
 Description: Welcome to ESP-Robot written in Micropython
 Date: 2023-10-08
 Tags: Micropython
@@ -40,7 +40,7 @@ The ESP Lego Robot is a low budget project. You will need:
 **basic components together arround 35,50 $**  
 **All together with Buzzer, Neopixel and Display arround 55 $**  
 
-![ESP-Robot]({static}/esp-Robot/photos/ESP-Robot-Micropython.png)
+![ESP-Robot]({static}/articles/esp-Robot/photos/ESP-Robot-Micropython.png)
 
 This the mp-remote commands for the ESP32 S3 board:  
 - this command upload the main.py to the micropython board over com11  
