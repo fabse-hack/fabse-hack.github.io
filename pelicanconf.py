@@ -1,6 +1,14 @@
 from datetime import datetime
 
 AUTHOR = "fabse"
+AUTHORS = {
+    'fabse': {
+        'name': 'Vorname Nachname',
+        'bio': 'Eine kurze Bio über den Autor',
+        'email': 'autor@email.com',
+        'website': 'https://www.autorenwebsite.com'
+    }
+}
 SITENAME = "fabse-hack"
 #SITEURL = 'test.com'
 SITETITLE = "fabse hack"
