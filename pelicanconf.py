@@ -94,6 +94,7 @@ CC_LICENSE = {
     "language": "en_US",
 }
 
+
 COPYRIGHT_YEAR = datetime.now().year
 
 DISQUS_SITENAME = "flex-pelican"
