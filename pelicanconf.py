@@ -17,6 +17,7 @@ THEME = "pelican-theme/"
 THEME_COLOR = 'dark'
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
+USE_LESS = True
 
 PYGMENTS_STYLE = "monokai"
 PYGMENTS_STYLE_DARK = 'monokai'
@@ -104,8 +105,3 @@ EXTRA_PATH_METADATA = {
     "extra/ads.txt": {"path": "ads.txt"},
     "extra/CNAME": {"path": "CNAME"},
 }
-
-THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
-THEME_COLOR_ENABLE_USER_OVERRIDE = True
-
-USE_LESS = True
