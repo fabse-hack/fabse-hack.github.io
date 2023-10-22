@@ -5,7 +5,7 @@ Date: 2023-10-08
 Tags: Micropython
 Category: Projects
 Summary: ESP Robot summery Test
-featured_image: /esp-Robot/photos/ESP-Robot-Micropython.png
+featured_image: /articles/esp-Robot/photos/ESP-Robot-Micropython.png
 ---
 
 # Welcome to ESP-Robot written in Micropython
