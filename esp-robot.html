@@ -221,9 +221,8 @@ I have also uploaded the frtzing file. The controller is unfortunately a similar
 <h2>3. Lego Chassis</h2>
 <p>Yes, there are a lot of chassis on the market, if you look closer, they are only made of sheet metal or fall apart just by looking at them. A modular base is needed - Lego! There is a super tool for Lego, the Studio 2.0. If you have another platform or another chassis, you can build your own robot creation.
 The Robot is designed with Studio 2.0, here is the download link:
-<a href="https://www.bricklink.com/v3/studio/download.page">Bricklink Studio 2.0</a><br>
-You can read the whole story of the lego chassis here: <a href="https://github.com/FabseRobotics/esp-robot/tree/main/Chassis">Lego Chassis</a>  </p>
-<p>{% image "./Chassis/Robot5.png", "wiring" %}</p>
+<a href="https://www.bricklink.com/v3/studio/download.page">Bricklink Studio 2.0</a>  </p>
+<p><img alt="Chassis" src="/articles/esp-Robot/Chassis/Robot5.png"></p>
 <hr>
 <p><br></p>
 <p><a name="lego-dc-motors"></a></p>
@@ -232,7 +231,7 @@ You can read the whole story of the lego chassis here: <a href="https://github.c
 Here is the link:
 <a href="https://www.bricklink.com/v2/catalog/catalogitem.page?S=88003-1">Lego Power Functions L</a><br>
 <strong>Lego Power Function L :</strong><br>
-<img alt="Logo" src="photos/powerfunctionl.png">  </p>
+<img alt="Logo" src="/articles/photos/powerfunctionl.png">  </p>
 <hr>
 <p><br></p>
 <p><a name="hardware"></a></p>
@@ -245,20 +244,20 @@ Here is the link:
 For more informations visit the website:
 <a href="https://wiki.banana-pi.org/BPI-Leaf-S3">ESP32-Leaf-S3</a><br>
 <strong>ESP32-Leaf-S3 :</strong><br>
-<img alt="Logo" src="./content/esp-Robot/photos/ESP32-Leaf-S3.png">  </p>
+<img alt="Logo" src="/articles/esp-Robot/photos/ESP32-Leaf-S3.png">  </p>
 <p>Power delivery circuit, USB-C with 3 DIP-Switches, it's for setting the DC power. The Power Function L Motors need 9 Volt, so i take the 9 Volt setting. <a href="https://de.aliexpress.com/item/1005004874144607.html">here is the link</a><br>
 <strong>PD-Delivery Board USB-C :</strong><br>
-<img alt="Logo" src="photos/USB-CPowerDelivery.png">  </p>
+<img alt="Logo" src="/articles/esp-Robot/photos/USB-CPowerDelivery.png">  </p>
 <p>This motor controller can controll 2 DC Motors. Pefect for this project. 9 Volt entry power, with a integrated voltage transformer to 5 Volt. We need 6 signal pins from the ESP32 to it. E1, L1, L2, L3, L4, E2<br>
 <strong>L298N Controller :</strong><br>
-<img alt="Logo" src="photos/L298N.png">  </p>
+<img alt="Logo" src="/articles/esp-Robot/photos/L298N.png">  </p>
 <hr>
 <p><br></p>
 <p><a name="sensors"></a></p>
 <h2>6. Sensors</h2>
 <p>This is the only sensor of the ESP32 Robot. In the future i will add some more to it. By emitting a clicking sound in the ultrasonic range and measuring the delay of the resulting echo, this ultrasonic sensor enables you to determine the distance to an object.<br>
 <strong>HC-SR04 - Ultrasonic Sensor :</strong> <br>
-<img alt="Logo" src="photos/HC-SR04.png">  </p>
+<img alt="Logo" src="/articles/esp-Robot/photos/HC-SR04.png">  </p>
 <hr>
 <p><br></p>
 <p><a name="light"></a></p>
@@ -266,7 +265,7 @@ For more informations visit the website:
 <p>The Robot defentily need some lights. "A robot needs a light to help it see in the dark, just like how humans need a flashlight!"
 So the Robot get some wb2812b LEDs, easy to use and found much in the network. The ESP Robot have a 3 LEDs Strip wb2812b. It's nice to have an adressable LED or high power LED or small Lasers. When they have 5V, it's easy to use them with a microcontroller.<br>
 <strong>Neopixel WB2812b :</strong><br>
-<img alt="Logo" src="photos/NeoPixel.png">  </p>
+<img alt="Logo" src="/articles/esp-Robot/photos/NeoPixel.png">  </p>
 <hr>
 <p><br>
 <a name="sounds"></a></p>
@@ -275,14 +274,14 @@ So the Robot get some wb2812b LEDs, easy to use and found much in the network. T
 Some small piezo buzzer are avaiable in all electronic onlinestores.
 THe R2D2 Sound from main.py is mixxed with the Neopixel LEDs, there are in the same coding loop, and then the light looks soundactiv. Look in the main.py for more information about this, i comment a few lines in there.<br>
 <strong>Piezo Buzzer :</strong><br>
-<img alt="Logo" src="photos/Buzzer.png">  </p>
+<img alt="Logo" src="/articles/esp-Robot/photos/Buzzer.png">  </p>
 <hr>
 <p><br>
 <a name="programm"></a></p>
 <h2>9. Display</h2>
 <p>So the Robot needs a Display, i chosse the ili9341 Touchscreen Display. The touch i not use yet, only the display for show some informations. In this Version 1 the Display shows the Wifi Network IP and the currently Status. The micropython library comes from this github repository <a href="https://github.com/rdagger/micropython-ili9341">rdagger</a><br>
 <strong>ili9341 Display :</strong><br>
-<img alt="Logo" src="photos/ili9341.png"></p>
+<img alt="Logo" src="/articles/esp-Robot/photos/ili9341.png"></p>
 <hr>
 <p><br>
 <a name="Display"></a></p>
@@ -291,14 +290,14 @@ THe R2D2 Sound from main.py is mixxed with the Neopixel LEDs, there are in the s
 For some months i learned Python, and so i programmed it in Micropython.
 I'm not explain here the micropython programm, because i write in the code many comments...<br>
 This is the webserver with the touch buttons:
-<img alt="Logo" src="photos/Touch-Controll-HTML.jpg">  </p>
+<img alt="Logo" src="/articles/esp-Robot/photos/Touch-Controll-HTML.jpg">  </p>
 <hr>
 <p><br>
 <a name="self-driving"></a></p>
 <h2>11. ESP Robot Self-Driving Logic</h2>
 <p>What does the ESP Robot do? 
 - Forward, &gt;35cm Distance measuring, Stop, Backward, Left or Right, Forward again  </p>
-<p><img alt="Logo" src="photos/Auto1.gif">  </p>
+<p><img alt="Logo" src="/articles/esp-Robot/photos/Auto1.gif">  </p>
 <hr>
 <p><br>
 <a name="to-dos"></a></p>
