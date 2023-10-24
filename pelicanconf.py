@@ -85,7 +85,7 @@ GITHUB_CORNER_URL = "https://github.com/fabse-hack"
 SOCIAL = (
     ("github", "https://github.com/fabse-hack"),
     ("youtube", "https://youtube.com/fabse-hack"),
-    ("thingiverse", "https://www.thingiverse.com/fabse-hack/designs"),
+    ("circle-t", "https://www.thingiverse.com/fabse-hack/designs"),
     ("rss", "/blog/feeds/all.atom.xml"),
 )
 
