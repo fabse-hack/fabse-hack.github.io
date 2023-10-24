@@ -1,7 +1,6 @@
 from datetime import datetime
 
-AUTHOR = "fabse"
-AUTHORS = {
+AUTHOR = {
     'fabse': {
         'name': 'Vorname Nachname',
         'bio': 'Eine kurze Bio über den Autor',
@@ -9,10 +8,11 @@ AUTHORS = {
         'website': 'https://www.autorenwebsite.com'
     }
 }
+
 SITENAME = "fabse-hack"
 #SITEURL = 'test.com'
 SITETITLE = "fabse hack"
-SITESUBTITLE = "Welcome to fabse hack website"
+SITESUBTITLE = "welcome to fabse hack website"
 #SITEDESCRIPTION = "Flex - The minimalist Pelican theme."
 # SITELOGO = ''
 # FAVICON = '/images/favicon.ico'
