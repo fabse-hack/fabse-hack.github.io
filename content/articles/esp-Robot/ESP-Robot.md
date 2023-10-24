@@ -3,7 +3,6 @@ Title: ESP-Robot
 Description: Welcome to ESP-Robot written in Micropython
 Date: 2023-10-08
 Author: fabse
-Author_Website: https://www.example.com
 Tags: Micropython
 Category: Projects
 Summary: ESP-Robot project is a budget-friendly robotics using Micropython and Lego components, including an ESP32 S3 board. It's designed for self-driving and modularity for creative robot construction.
@@ -65,9 +64,8 @@ I have also uploaded the frtzing file. The controller is unfortunately a similar
 Yes, there are a lot of chassis on the market, if you look closer, they are only made of sheet metal or fall apart just by looking at them. A modular base is needed - Lego! There is a super tool for Lego, the Studio 2.0. If you have another platform or another chassis, you can build your own robot creation.
 The Robot is designed with Studio 2.0, here is the download link:
 [Bricklink Studio 2.0](https://www.bricklink.com/v3/studio/download.page)  
-You can read the whole story of the lego chassis here: [Lego Chassis](https://github.com/FabseRobotics/esp-robot/tree/main/Chassis)  
 
-{% image "./Chassis/Robot5.png", "wiring" %}
+![Chassis]({static}/articles/esp-Robot/Chassis/Robot5.png)
 ***
 <br>
 
@@ -78,7 +76,7 @@ For the Lego chassis I choose two DC Power Function L motors. These motors have 
 Here is the link:
 [Lego Power Functions L](https://www.bricklink.com/v2/catalog/catalogitem.page?S=88003-1)  
 **Lego Power Function L :**  
-![Logo](photos/powerfunctionl.png)  
+![Logo]({static}/articles/photos/powerfunctionl.png)  
 
 ***
 <br>
@@ -95,17 +93,16 @@ ESP32 S3, here i choose ESP32-Leaf-S3 from Banana Pi. I flashed the newest Micro
 For more informations visit the website:
 [ESP32-Leaf-S3](https://wiki.banana-pi.org/BPI-Leaf-S3)  
 **ESP32-Leaf-S3 :**  
-![Logo](./content/esp-Robot/photos/ESP32-Leaf-S3.png)  
+![Logo]({static}/articles/esp-Robot/photos/ESP32-Leaf-S3.png)  
 
 
 Power delivery circuit, USB-C with 3 DIP-Switches, it's for setting the DC power. The Power Function L Motors need 9 Volt, so i take the 9 Volt setting. [here is the link](https://de.aliexpress.com/item/1005004874144607.html)  
 **PD-Delivery Board USB-C :**  
-![Logo](photos/USB-CPowerDelivery.png)  
-
+![Logo]({static}/articles/esp-Robot/photos/USB-CPowerDelivery.png)  
 
 This motor controller can controll 2 DC Motors. Pefect for this project. 9 Volt entry power, with a integrated voltage transformer to 5 Volt. We need 6 signal pins from the ESP32 to it. E1, L1, L2, L3, L4, E2  
 **L298N Controller :**  
-![Logo](photos/L298N.png)  
+![Logo]({static}/articles/esp-Robot/photos/L298N.png)  
 
 ***
 <br>
@@ -115,7 +112,7 @@ This motor controller can controll 2 DC Motors. Pefect for this project. 9 Volt 
 ## 6. Sensors
 This is the only sensor of the ESP32 Robot. In the future i will add some more to it. By emitting a clicking sound in the ultrasonic range and measuring the delay of the resulting echo, this ultrasonic sensor enables you to determine the distance to an object.  
 **HC-SR04 - Ultrasonic Sensor :**   
-![Logo](photos/HC-SR04.png)  
+![Logo]({static}/articles/esp-Robot/photos/HC-SR04.png)  
 ***
 <br>
 
@@ -125,7 +122,7 @@ This is the only sensor of the ESP32 Robot. In the future i will add some more t
 The Robot defentily need some lights. "A robot needs a light to help it see in the dark, just like how humans need a flashlight!"
 So the Robot get some wb2812b LEDs, easy to use and found much in the network. The ESP Robot have a 3 LEDs Strip wb2812b. It's nice to have an adressable LED or high power LED or small Lasers. When they have 5V, it's easy to use them with a microcontroller.  
 **Neopixel WB2812b :**  
-![Logo](photos/NeoPixel.png)  
+![Logo]({static}/articles/esp-Robot/photos/NeoPixel.png)  
 ***
 <br>
 <a name="sounds"></a>
@@ -135,7 +132,7 @@ Beeeep, Bep, Sound. It's very easy to you a piezo buzzer for make some R2D2 nois
 Some small piezo buzzer are avaiable in all electronic onlinestores.
 THe R2D2 Sound from main.py is mixxed with the Neopixel LEDs, there are in the same coding loop, and then the light looks soundactiv. Look in the main.py for more information about this, i comment a few lines in there.  
 **Piezo Buzzer :**  
-![Logo](photos/Buzzer.png)  
+![Logo]({static}/articles/esp-Robot/photos/Buzzer.png)  
 ***  
 <br>
 <a name="programm"></a>
@@ -143,7 +140,7 @@ THe R2D2 Sound from main.py is mixxed with the Neopixel LEDs, there are in the s
 ## 9. Display
 So the Robot needs a Display, i chosse the ili9341 Touchscreen Display. The touch i not use yet, only the display for show some informations. In this Version 1 the Display shows the Wifi Network IP and the currently Status. The micropython library comes from this github repository [rdagger](https://github.com/rdagger/micropython-ili9341)  
 **ili9341 Display :**  
-![Logo](photos/ili9341.png)
+![Logo]({static}/articles/esp-Robot/photos/ili9341.png)
 ***
 <br>
 <a name="Display"></a>
@@ -153,7 +150,7 @@ Is the heart of the Robot, without, it's can do nothing!
 For some months i learned Python, and so i programmed it in Micropython.
 I'm not explain here the micropython programm, because i write in the code many comments...  
 This is the webserver with the touch buttons:
-![Logo](photos/Touch-Controll-HTML.jpg)  
+![Logo]({static}/articles/esp-Robot/photos/Touch-Controll-HTML.jpg)  
 ***
 <br>
 <a name="self-driving"></a>
@@ -162,7 +159,7 @@ This is the webserver with the touch buttons:
 What does the ESP Robot do? 
 - Forward, >35cm Distance measuring, Stop, Backward, Left or Right, Forward again  
   
-![Logo](photos/Auto1.gif)  
+![Logo]({static}/articles/esp-Robot/photos/Auto1.gif)  
 
 ***  
 <br>
