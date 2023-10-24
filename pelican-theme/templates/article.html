@@ -26,15 +26,17 @@
     {% endif %}
     <h1 id="{{ article.slug }}">{{ article.title }}</h1>
     <p>
-      {{ _('Posted by %(author)s on %(when)s in %(category)s',
-           author=article.author.name,
+      {{ _('Posted by <a href="%(author_website)s">%(author_name)s</a> on %(when)s in %(category)s',
+           author_website=article.author.author_website,
+           author_name=article.author.name,
            when=article.locale_date,
            category='<a href="%s/%s">%s</a>'|format(SITEURL, article.category.url, article.category)|safe) }}
     
       {% if PLUGINS and 'post_stats' in PLUGINS %}
         &#8226; {{ _('%(minutes)s min read', minutes=article.stats['read_mins']) }}
       {% endif %}
-    </p>    
+    </p>
+     
   </header>
 
   {% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.ads.article_top %}

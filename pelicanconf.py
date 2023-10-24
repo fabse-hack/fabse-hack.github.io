@@ -1,6 +1,7 @@
 from datetime import datetime
 
 AUTHOR = "fabse"
+AUTHOR_WEBSITE = "http://www.example.com"
      
      
 #      {
