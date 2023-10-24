@@ -19,7 +19,7 @@ SITESUBTITLE = "welcome to fabse hack website"
 BROWSER_COLOR = "#333333"
 PATH = 'content'
 
-
+ARTICLE_METADATA = ('Title', 'Date', 'Author', 'Category', 'Tags')
 TIMEZONE = 'Europe/Berlin'
 THEME = "pelican-theme/"
 THEME_COLOR = 'dark'
