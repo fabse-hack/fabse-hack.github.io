@@ -2,7 +2,7 @@
 Title: Welcome to fabse-hack
 Date: 2023-10-03
 Category: Welcome
-Summery: fabse-hack - Tech enthusiast sharing DIY projects, programming, and innovation passion.
+Summary: fabse-hack - Tech enthusiast sharing DIY projects, programming, and innovation passion.
 ---
 
 
