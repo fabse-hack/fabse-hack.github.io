@@ -13,4 +13,4 @@ Summary: Here is a small youtube video from a daytrip in south german mountains
 
 In the vicinity, there is a small pond where various amphibians can be found. Mainly, frogs and alpine newts are prevalent, but there are also crested newts among them. Here is a short video about it:
 
-youtube:: A7-zk8xn5jE
+.. youtube:: A7-zk8xn5jE
