@@ -2,16 +2,6 @@ from datetime import datetime
 
 AUTHOR = "fabse"
 AUTHOR_WEBSITE = "http://www.example.com"
-     
-     
-#      {
-#        'name': 'Vorname Nachname',
-#        'bio': 'Eine kurze Bio über den Autor',
-#        'email': 'autor@email.com',
-#        'website': 'https://www.autorenwebsite.com'
-#    }
-#}
-
 SITENAME = "fabse-hack"
 #SITEURL = 'test.com'
 SITETITLE = "fabse hack"
@@ -29,20 +19,19 @@ THEME_COLOR = 'dark'
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
 USE_LESS = True
-
+USE_GOOGLE_FONTS = False
 PYGMENTS_STYLE = "monokai"
 PYGMENTS_STYLE_DARK = 'monokai'
 DEFAULT_LANG = 'de'
 SUMMARY_MAX_LENGTH = 10
 
-# Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
+
 LINKS = (('Blog', 'https://fabse-hack.github.io/'),
          ('Testing', 'https://fabse-hack.github.io/'))
 
@@ -53,14 +42,12 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 ROBOTS = "index, follow"
-
 PATH = "content"
 OUTPUT_PATH = "blog/"
-
 DISABLE_URL_HASH = True
 
 # PLUGIN_PATHS = ['pelican-plugins']
-# PLUGINS = ['i18n_subsites']
+PLUGINS = ['pelican_youtube']
 # JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 # I18N_TEMPLATES_LANG = "de"
 # OG_LOCALE = "de_DE"
@@ -107,7 +94,6 @@ COPYRIGHT_YEAR = datetime.now().year
 
 # DISQUS_SITENAME = "flex-pelican"
 # ADD_THIS_ID = "ra-55adbb025d4f7e55"
-
 # STATIC_PATHS = ["images", "extra/ads.txt", "extra/CNAME"]
 
 EXTRA_PATH_METADATA = {

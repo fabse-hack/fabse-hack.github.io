@@ -21,6 +21,7 @@ jobs:
     - name: Install Pelican and dependencies
       run: |
         pip install pelican Markdown
+        pip install pelican-youtube
 
     - name: Build Pelican website
       run: |
