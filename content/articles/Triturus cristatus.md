@@ -6,6 +6,7 @@ Author: fabse
 Tags: Nature
 Category: Nature
 Summary: Here is a small youtube video from a daytrip in south german mountains
+featured_image: <iframe src="https://www.youtube.com/embed/A7-zk8xn5jE" frameborder="0" allowfullscreen></iframe>
 ---
 
 # triturus cristatus
