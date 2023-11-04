@@ -8,8 +8,9 @@ Category: Nature
 ---
 
 # triturus cristatus
-## zu deutsch - nördlicher Kammmolch
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A7-zk8xn5jE" frameborder="0" allowfullscreen></iframe>
 
-In the vicinity, there is a small pond where various amphibians can be found. Mainly, frogs and alpine newts are prevalent, but there are also crested newts among them. Here is a short video about it:
+## zu deutsch - nördlicher Kammmolch
+
+In the vicinity, there is a small pond where various amphibians can be found. Mainly, frogs and alpine newts are prevalent, but there are also crested newts among them.
