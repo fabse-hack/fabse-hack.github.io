@@ -8,7 +8,7 @@ SITETITLE = "fabse hack"
 SITESUBTITLE = "welcome to fabse hack website"
 #SITEDESCRIPTION = "Flex - The minimalist Pelican theme."
 # SITELOGO = ''
-# FAVICON = '/images/favicon.ico'
+FAVICON = '/images/fabsehack.ico'
 BROWSER_COLOR = "#333333"
 PATH = 'content'
 
