@@ -1,14 +1,14 @@
 from datetime import datetime
 
 AUTHOR = "fabse"
-AUTHOR_WEBSITE = "http://www.example.com"
+AUTHOR_WEBSITE = "fabse-hack.github.io"
 SITENAME = "fabse-hack"
-#SITEURL = 'test.com'
+SITEURL = "fabse-hack.github.io"
 SITETITLE = "fabse hack"
 SITESUBTITLE = "welcome to fabse hack website"
 #SITEDESCRIPTION = "Flex - The minimalist Pelican theme."
 # SITELOGO = ''
-FAVICON = '/images/fabsehack.ico'
+FAVICON = 'theme/img/fabsehack.ico'
 BROWSER_COLOR = "#333333"
 PATH = 'content'
 
