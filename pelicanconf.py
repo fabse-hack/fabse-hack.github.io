@@ -3,7 +3,7 @@ from datetime import datetime
 AUTHOR = "fabse"
 AUTHOR_WEBSITE = "fabse-hack.github.io"
 SITENAME = "fabse-hack"
-SITEURL = "fabse-hack.github.io"
+# SITEURL = "fabse-hack.github.io"
 SITETITLE = "fabse hack"
 SITESUBTITLE = "welcome to fabse hack website"
 #SITEDESCRIPTION = "Flex - The minimalist Pelican theme."
