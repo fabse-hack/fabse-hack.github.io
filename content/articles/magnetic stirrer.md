@@ -1,7 +1,7 @@
 ---
-Title: Triturus cristatus
-Description: Triturus cristatus - nördlicher Kammmolch
-Date: 2023-10-28
+Title: Magnetic Stirrer 3D printed
+Description: Magnetic Stirrer 3D printed
+Date: 2023-11-02
 Author: fabse
 Tags: 3dprinting, labratory
 Category: 3dprinting, Projects
