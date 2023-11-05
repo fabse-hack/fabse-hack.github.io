@@ -11,7 +11,7 @@ Category: 3dprinting
 
 
 <a href="https://www.thingiverse.com/fabse-hack/designs">
-    <img src="/articles/thingiverse_05_11_2023.jpg" alt="thingiverse designs">
+    <img src="/articles/images/thingiverse_05_11_2023.jpg" alt="thingiverse designs">
 </a>
 
 
