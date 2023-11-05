@@ -9,4 +9,8 @@ Category: 3dprinting
 
 # updated thingiverse designs today
 
-<iframe src="https://www.thingiverse.com/fabse-hack/designs" width="100%" height="600" frameborder="0"></iframe>
+
+<a href="https://www.thingiverse.com/fabse-hack/designs">
+    <img src="/articles/thingiverse_05_11_2023.jpg" alt="thingiverse designs">
+</a>
+
