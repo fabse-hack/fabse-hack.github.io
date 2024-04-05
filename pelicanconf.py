@@ -39,7 +39,7 @@ LINKS = (('Blog', 'https://fabse-hack.github.io/'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 ROBOTS = "index, follow"
 PATH = "content"
@@ -47,11 +47,11 @@ OUTPUT_PATH = "blog/"
 DISABLE_URL_HASH = True
 
 # PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['pelican_youtube']
+# PLUGINS = ['pelican_youtube']
 # JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 # I18N_TEMPLATES_LANG = "de"
 # OG_LOCALE = "de_DE"
-#LOCALE = "de_DE"
+# LOCALE = "de_DE"
 
 DATE_FORMATS = {
     "de": "%d %B %Y",
@@ -94,7 +94,7 @@ COPYRIGHT_YEAR = datetime.now().year
 
 # DISQUS_SITENAME = "flex-pelican"
 # ADD_THIS_ID = "ra-55adbb025d4f7e55"
-# STATIC_PATHS = ["images", "extra/ads.txt", "extra/CNAME"]
+# STATIC_PATHS = ['content/articles/photos/', 'images', 'articles/photos']
 
 EXTRA_PATH_METADATA = {
     "extra/ads.txt": {"path": "ads.txt"},

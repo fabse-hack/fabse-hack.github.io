@@ -3,7 +3,7 @@ name: Build and Deploy Pelican Website
 on:
   push:
     branches:
-      - main  # Change this to your main branch
+      - main
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.11  # Choose the Python version you need
+        python-version: 3.11
 
     - name: Install Pelican and dependencies
       run: |
