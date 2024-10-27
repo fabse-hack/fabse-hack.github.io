@@ -13,16 +13,15 @@ featured_image: /articles/temp_humidity_micropython_lvgl/photos/temp_humidity_mi
 [so here is the link to the github repo](https://github.com/fabse-hack/temp_humidity_micropython_lvgl)  
 
 **Content:**  
-- [Temperature and Humidity with MicroPython and LVGL](#temperature-and-humidity-with-micropython-and-lvgl)
-- [Hardware](#hardware)
-- [Project Description](#project-description)
-
+- [Temperature and Humidity with MicroPython and LVGL](#temperature-and-humidity-with-micropython-and-lvgl)<br>
+- [Hardware](#hardware)<br>
+- [Project Description](#project-description)<br>
 
 # Hardware
 - ILI9341 Display
 - Lolin ESP32-S2 Mini
 - DHT11 Sensor
-- Neopixel LED (P9823)
+- Neopixel LED (P9823)  
 
 ***You can click on the image to visit the GitHub repository:***
   
