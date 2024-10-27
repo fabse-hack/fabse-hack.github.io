@@ -10,10 +10,12 @@ featured_image: /articles/temp_humidity_micropython_lvgl/photos/temp_humidity_mi
 ---
 # Temperature and Humidity with MicroPython and LVGL
   
+[so here is the link to the github repo](https://github.com/fabse-hack/temp_humidity_micropython_lvgl)  
+
 **Content:**  
 - [Temperature and Humidity with MicroPython and LVGL](#temperature-and-humidity-with-micropython-and-lvgl)
 - [Hardware](#hardware)
-- [Project Description and github repo link](#project-description-and-github-repo-link)
+- [Project Description](#project-description)
 
 
 # Hardware
@@ -24,10 +26,9 @@ featured_image: /articles/temp_humidity_micropython_lvgl/photos/temp_humidity_mi
 
 ***You can click on the image to visit the GitHub repository:***
   
-![temp_humidity_micropython_lvgl]({static}/articles/temp_humidity_micropython_lvgl/photos/temp_humidity_micropython_lvgl.jpg)(https://github.com/fabse-hack/temp_humidity_micropython_lvgl)
-  
+![temp_humidity_micropython_lvgl]({static}/articles/temp_humidity_micropython_lvgl/photos/temp_humidity_micropython_lvgl.jpg)
 
-# Project Description and github repo link  
+# Project Description
 In this project, I'll explain how I built a temperature and humidity display using MicroPython and LVGL.
 
 - **Building the Firmware:**  
@@ -46,7 +47,3 @@ In this project, I'll explain how I built a temperature and humidity display usi
   - **Error Exceptions:** I've implemented "try/except" blocks in several places to handle errors, timeouts, or OS errors, and log error messages in the MicroPython REPL.
   - **Automatic Y-Axis Range Adjustments:** The Y-axis range in both diagrams adjusts automatically.
   - **Automatic X-Axis Range:** The X-axis range in both diagrams updates automatically (one step per hour).
-
-
-[so here is the link to the github repo](https://github.com/fabse-hack/temp_humidity_micropython_lvgl)  
-
